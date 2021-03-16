@@ -1,0 +1,23 @@
+{
+  "token": "{INSERT TOKEN}",
+  "embed_color": "#363940",
+  "footer_text": "TURPH Music",
+  "footer_icon": "https://cdn.discordapp.com/attachments/748658776953061488/820038475717017600/Untitled.png",
+  "thumbnail_image": "https://cdn.discordapp.com/attachments/748658776953061488/820038475717017600/Untitled.png",
+  "prefix": "!",
+  "statusActivity": "{user} | TURPH Music",
+  "statusType": "LISTENING",
+  "id": {
+    "ownerId": "378573445639831552",
+    "djRole": "798316524838060032"
+  },
+  "emojis": {
+    "error": "❌",
+    "correct": "✅",
+    "warning": "⚠️",
+    "info": "ℹ️"
+  },
+  "distube_options": {
+    "searchSongs": "false"
+  }
+}
