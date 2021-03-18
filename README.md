@@ -15,6 +15,10 @@ Updates are pushed on a regular basis so please keep an eye out and pay attentio
 
 ### [Config File](https://github.com/Tur-ph/TURPH-Music/blob/master/config.json)
 
+*Note: The config file has default values that will work fine currently, these are mainly optional requirements, you are expected to enter your bot token.
+
+**config.json template
+
 ```json
 {
   "token": "{ INSERT TOKEN }",
