@@ -28,7 +28,10 @@ client.ftext = config.footer_text;
 client.ficon = config.footer_icon;
 client.thumbnail = config.thumbnail_image;
 
-client.login(process.env.TOKEN);
+let token = config.token;
+if(!token) throw new TypeError('TOKEN is not defined, please enter a token value inside the config.json file');
+
+client.login(token);
 
 client.on('ready', () => {
   console.log(client.user.tag + ' is online');
