@@ -91,6 +91,12 @@ client.distube
       .setColor(client.col);
     message.channel.send(playingEmbed);
     client.user.setActivity(`${song.name}`, { type: 'LISTENING' });
+  
+    if (!client.distube.toggleAutoplay(message)) {
+			return;
+		} else {
+			client.distube.toggleAutoplay(message);
+		}
   })
   .on('addSong', async (message, queue, song) => {
     let position = queue.songs.length;
