@@ -74,4 +74,4 @@ DISTUBE_OPTIONS/SEARCHSONGS | true | true / false
 
 #### [TURPH Music](https://github.com/Tur-ph/TURPH-Music) is made and maintained by [Tur-ph](https://github.com/Tur-ph)
 
-#### Creditting the developer is optional however taking credit for unchanged code is not allowed, if you do modify it and public it has a *new or fixed* version please give [Tur-ph](https://github.com/Tur-ph) some credit.
+#### Creditting the developer is optional however taking credit for unchanged code is not allowed, if you do modify it and make it public and it is a *new or fixed* version please give [Tur-ph](https://github.com/Tur-ph) some credit.
