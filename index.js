@@ -93,6 +93,8 @@ client.distube
     client.user.setActivity(`${song.name}`, { type: 'LISTENING' });
   })
   .on('addSong', async (message, queue, song) => {
+    let position = queue.songs.length;
+  
     const addedSong = new discord.MessageEmbed()
       .setTitle(config.emojis.correct + ' Added to Queue')
       .setColor(client.col)
@@ -100,6 +102,7 @@ client.distube
       .setThumbnail(client.thumbnail ? client.thumbnail : 'null')
       .addField('Title:', song.name, true)
       .addField('Duration:', song.formattedDuration, true)
+      .addField('Queue Position:', position, true)
       .addField('Requested By:', song.user, true)
     message.channel.send(addedSong);
   })
