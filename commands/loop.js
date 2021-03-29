@@ -6,7 +6,7 @@ module.exports = {
   description: 'Either loops the queue or the song',
   category: 'music',
   dj: true,
-  usage: 'loop <song/queue>',
+  usage: 'loop <song/queue/disable>',
   async run(message, args, embed, client) {
     let mode = args[0];
     let modeNumber;
