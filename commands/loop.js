@@ -28,3 +28,6 @@ module.exports = {
     } catch (e) {
       console.log(e);
       return embed(`${config.emojis.error} Error`, e);
+    }
+  }
+};
