@@ -47,12 +47,12 @@ Updates are pushed on a regular basis so please keep an eye out and pay attentio
 
 #### Notes
 
-Field Name | Required | Expectation
---- | --- | ---
-TOKEN | true | VALID DISCORD TOKEN
-EMBED_COLOR | false | HEX COLOR
-FOOTER_TEXT | false | TEXT
-FOOTER_ICON | false | IMAGE URL
+Field Name | Required | Expectation | Example
+--- | --- | --- | ---
+TOKEN | true | VALID DISCORD TOKEN | ....
+EMBED_COLOR | false | HEX COLOR | #00000
+FOOTER_TEXT | false | TEXT | TURPH Music
+FOOTER_ICON | false | IMAGE URL | 
 THUMBNAIL_IMAGE | false | IMAGE URL
 PREFIX | true | CHARACTER
 STATUSACTIVITY | false | TEXT
