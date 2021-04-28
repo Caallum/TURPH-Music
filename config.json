@@ -8,8 +8,8 @@
   "statusActivity": "{user} | TURPH Music",
   "statusType": "LISTENING",
   "id": {
-    "ownerId": "378573445639831552",
-    "djRole": "798316524838060032"
+    "ownerId": "{ BOT OWNER ROLE ID }",
+    "djRole": "{ DJ ROLE ID }"
   },
   "emojis": {
     "error": "❌",
