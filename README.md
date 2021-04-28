@@ -52,18 +52,18 @@ Field Name | Required | Expectation | Example
 TOKEN | true | VALID DISCORD TOKEN | ....
 EMBED_COLOR | false | HEX COLOR | #00000
 FOOTER_TEXT | false | TEXT | TURPH Music
-FOOTER_ICON | false | IMAGE URL | 
-THUMBNAIL_IMAGE | false | IMAGE URL
-PREFIX | true | CHARACTER
-STATUSACTIVITY | false | TEXT
-STATUSTYPE | false | PLAYING / WATCHING / LISTENING (caps sensitive)
-ID/OWNERID | true | DISCORD USER ID
-ID/DJROLE | true | DISCORD ROLE ID
-EMOJIS/ERROR | true | DEFAULT
-EMOJIS/CORRECT | true | DEFAULT
-EMOJIS/WARNING | true | DEFAULT
-EMOJIS/INFO | true | DEFAULT
-DISTUBE_OPTIONS/SEARCHSONGS | true | true / false
+FOOTER_ICON | false | IMAGE URL | https://cdn.discordapp.com/attachments/748658776953061488/820038475717017600/Untitled.png
+THUMBNAIL_IMAGE | false | IMAGE URL | https://cdn.discordapp.com/attachments/748658776953061488/820038475717017600/Untitled.png
+PREFIX | true | CHARACTER | !
+STATUSACTIVITY | false | TEXT | TURPH Music
+STATUSTYPE | false | PLAYING / WATCHING / LISTENING (caps sensitive) | LISTENING
+ID/OWNERID | true | DISCORD USER ID | 378573445639831552
+ID/DJROLE | true | DISCORD ROLE ID | 378573445639831552
+EMOJIS/ERROR | true | DEFAULT | ❌
+EMOJIS/CORRECT | true | DEFAULT | ✅
+EMOJIS/WARNING | true | DEFAULT | ⚠️
+EMOJIS/INFO | true | DEFAULT | ℹ
+DISTUBE_OPTIONS/SEARCHSONGS | true | true / false | false
 
 **DEFAULT means the field should already have a value inside it, it's your choice wether you would like to change that default value**
 
